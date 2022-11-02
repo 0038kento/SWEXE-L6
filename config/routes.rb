@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'cartitems/new'
+  get 'products/index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :products
   root 'top#main'
